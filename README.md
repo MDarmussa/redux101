@@ -1,3 +1,15 @@
+Setup:
+- install react (px create-react-app lordbyron)
+- npm i react-redux
+- npm i redux
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
