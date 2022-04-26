@@ -1,5 +1,5 @@
 import { createStore } from 'redux'
-import catReducer from './catReducer'
+import { catReducer } from './catReducer'
 
 const store = createStore(
      catReducer,

@@ -2,7 +2,8 @@ import React from "react";
 import { connect } from "react-redux";
 
 
-const CatList = (cats) => {
+
+const CatList = ({cats}) => {
   const catsArray = Object.keys(cats);
 
   return (
@@ -20,9 +21,9 @@ const CatList = (cats) => {
 
 
 const mapStateToProps = (state) => {
-     console.log(state);
-     const { cats } = state;
-     return cats;
+  console.log(state)
+  const {cats} = state;
+  return {cats}
 }
 
 export default connect(mapStateToProps)(CatList)

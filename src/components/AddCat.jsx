@@ -5,7 +5,7 @@ import { connect  } from "react-redux";
 
 const AddCat = ({ addCat }) => {
      const [catName, setCatName] = useState('');
-     cont [activity, setActivity] = useState('');
+     const [activity, setActivity] = useState('');
   
 
   const _handleChangeName = (name) => {
